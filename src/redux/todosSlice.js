@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 let taskId = 1;
 
-export const todosSlice = createSlice({
+const todosSlice = createSlice({
     name: 'todos',
     initialState:{
         tasks: []
